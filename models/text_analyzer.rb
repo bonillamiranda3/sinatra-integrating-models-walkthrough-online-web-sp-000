@@ -30,7 +30,7 @@ class TextAnalyzer
 
     arr1.map do |c|
       arr2[c] = arr.count(c)
-    end  
+    end
 
     biggest = { arr2.keys.first => arr2.values.first }
 
